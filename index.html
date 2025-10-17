@@ -9,6 +9,13 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         body {
             display: flex;
             flex-direction: column;
@@ -31,11 +38,37 @@
             width: 30px;
             height: 30px;
         }
+
+        .center-card {
+            width: 30px;
+            height: 30px;
+            box-shadow: 0 5px 0 0 rgb(0, 0, 0);
+            border: 3px solid black;
+            padding: 20px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+        }
+
+        .center-text{
+            text-align: center;
+        }
     </style>
 
-    <img src="https://em-content.zobj.net/source/apple/325/rocket_1f680.png"/> 
-    <h1>Meu Deploy
+    <section>
+        <div class="center-card">
+            <img src="https://em-content.zobj.net/source/apple/325/rocket_1f680.png" />
+        </div>
+        <div>
+            <h1>
+                André
+            </h1>
+            <p class="center-text">Olá mundo! eu me chamo ☝️</p>
+        </div>
+    </section>
+    
+    <section>
 
-    </h1>
+    </section>
+   
 </body>
 </html>
