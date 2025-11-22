@@ -1,5 +1,5 @@
 # MyLandingPage
-Projeto de aulas desenvolvido em parceria com a UnimateLabs - Tubarão/SC
+Projeto de aulas desenvolvido em parceria com a UnimateLabs - Tubarão/SC/Brasil
 
 ## Aula 1
 
