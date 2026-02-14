@@ -1,231 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de André - Desenvolvedor Full-Stack e professor de tecnologia.">
     <title>Portfólio - André</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
-
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif; 
-            background-color: #f4f4f4; 
-            color: #333;
-            padding: 0 20px;
-        }
-        
-        #hero-wrapper {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        #hero-wrapper p {
-            margin: 0;
-            font-size: large;
-        }
-
-        #hero-wrapper h1{
-            font-size: 120px;
-            font-family: "Bebas Neue", sans-serif;
-            margin: 0;
-        }
-
-        #hero-wrapper img{
-            width: 240px;
-            height: 240px
-        }
-        
-        .divisor{
-            display: grid;
-            grid-template-columns: 25% 25% 25% 25%;
-            grid-template-rows: 100%;
-            height: 1px;
-            width: 100%;
-        }
-        
-        .quadrado-colorido-azul{
-            background-color: blue;
-            width: 100%;
-            height: 100%;
-        }
-
-        .quadrado-colorido-amarelo{
-            background-color: yellow;
-            width: 100%;
-            height: 100%;
-        }
-
-        .quadrado-colorido-green{
-            background-color: green;
-            width: 100%;
-            height: 100%;
-        }
-
-        .quadrado-colorido-pink{
-            background-color: pink;
-            width: 100%;
-            height: 100%;
-        }
-
-        main {
-            width: 100%;
-            padding-top: 20px;
-        }
-        
-        .content-section {
-            padding: 60px 20px;
-            max-width: 900px;
-            margin: 0 auto; 
-            background-color: #ffffff;
-        }
-
-        .content-section + .content-section {
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-        
-        .content-section h2 {
-            font-family: "Bebas Neue", sans-serif; 
-            font-size: 56px;
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 30px;
-            color: #222;
-        }
-        
-        .content-section p {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 20px;
-        }
-
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
-        
-        .project-card {
-            border: 1px solid #eee;
-            border-radius: 8px;
-            padding: 25px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-        }
-
-        .project-card h3 {
-            font-family: "Bebas Neue", sans-serif;
-            font-size: 24px;
-            margin-top: 0;
-            margin-bottom: 10px;
-            color: #007bff;
-        }
-
-        .tech-icons {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px 0;
-        }
-
-        .tech-icon {
-            width: 80px;
-            height: 80px;
-            background-color: #e9e9e9;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            color: #555;
-            font-weight: 700;
-            text-align: center;
-            padding: 5px;
-        }
-        
-        .cv-button-container {
-            text-align: center;
-            margin-top: 40px;
-        }
-        
-        .cv-button {
-            display: inline-block;
-            padding: 15px 40px;
-            background-color: black;
-            color: white;
-            text-decoration: none;
-            font-family: "Bebas Neue", sans-serif;
-            font-size: 28px;
-            border-radius: 5px;
-            transition: background-color 0.3s, transform 0.3s;
-            box-shadow: 0px 5px 0px #888; 
-        }
-        
-        .cv-button:hover {
-            background-color: #333;
-            transform: translateY(-10px);
-            box-shadow: 0px 7px 0px #888;
-        }
-
-
-        
-
-    </style>
-
     <header id="hero-wrapper">
         <div class="carta-circular">
-            <img src="blob/coding.png"/> 
+            <img src="blob/coding.png" alt="Ícone de programação" />
         </div>
         <p>Olá mundo, meu nome é ...</p>
-        <h1>André
-        </h1>
+        <h1>André</h1>
     </header>
 
     <main>
-        
         <section class="content-section" id="sobre-mim">
             <h2>Sobre Mim</h2>
             <p>
-                <strong>(Introdução)</strong> Preencher introdução
+                <strong>Introdução:</strong> Olá, meu nome é André!
+                Sou engenheiro de Software por formação, com 5 anos de experiência em desenvolvimento, hoje atuando como
+                desenvolvedor Full-Stack (Java Spring, Angular, React, Postgres) em um projeto ERP arquitetura
+                multi-tenant. Além disso, como projeto pessoal, também atuo como professor de tecnologia para
+                adolescentes aos finais de semana.
+                Sou apaixonado por desenvolvimento, dados e tecnologia como meio de transformação social!
             </p>
             <p>
-                <strong>(Descrição)</strong> Preencher descrição.
+                <strong>Descrição:</strong> O Site que você está vendo agora faz parte de uma série de aulas de tecnologia que leciono aos
+                sábados para crianças e adolescentes.
             </p>
         </section>
-    
+
         <section class="content-section" id="projetos">
             <h2>Meus Projetos</h2>
             <div class="project-grid">
+                <a href="#" class="project-card">
+                    <h3>Toy Sports</h3>
+                    <p>Jogo multiplayer, uma mistura de fallguys com mario kart.</p>
+                </a>
+                <a href="#" class="project-card">
+                    <h3>My Sims Cozy Bundle</h3>
+                    <p>Jogo da série The Sims, com um estilo mais tranquilo e acolhedor.</p>
+                </a>
+                <a href="#" class="project-card">
+                    <h3>ERP SAAS ramo veterinário</h3>
+                    <p>SAAS ERP para o ramo hospitalar veterinário.</p>
+                </a>
+                <a href="#" class="project-card">
+                    <h3>Coleta de dados para o setor varejista</h3>
+                    <p>Atuação com engenharia de dados para fortalecer inteligência de empresa regional do setor varejista.</p>
+                </a>
             </div>
         </section>
 
         <section class="content-section" id="tecnologias">
             <h2>Minhas Tecnologias</h2>
             <div class="tech-icons">
-                <div class="tech-icon">HTML5</div>
-                <div class="tech-icon">CSS3</div>
-                <div class="tech-icon">JavaScript</div>
+                <div class="tech-icon"><img src="blob/html_badge.svg" alt="HTML5" /></div>
+                <div class="tech-icon"><img src="blob/css_badge.svg" alt="CSS3" /></div>
+                <div class="tech-icon"><img src="blob/js_badge.svg" alt="JavaScript" /></div>
+            </div>
+            <div class="tech-icons">
+                <div class="tech-icon"><img src="blob/react_badge.svg" alt="React" /></div>
+                <div class="tech-icon"><img src="blob/java_badge.svg" alt="Java" /></div>
+                <div class="tech-icon"><img src="blob/python.svg" alt="Python" /></div>
             </div>
         </section>
 
         <section class="content-section" id="curriculo">
             <h2>Currículo</h2>
             <p style="text-align: center;">
-                Interessado em saber mais sobre minha trajetória profissional? Baixe meu currículo completo para ver em detalhes minhas experiências, formação e habilidades.
+                Interessado em saber mais sobre minha trajetória profissional? Baixe meu currículo completo para ver em
+                detalhes minhas experiências, formação e habilidades.
             </p>
             <div class="cv-button-container">
                 <a href="#" class="cv-button" download>Baixar CV</a>
@@ -233,4 +83,5 @@
         </section>
     </main>
 </body>
+
 </html>
